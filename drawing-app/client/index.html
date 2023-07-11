@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing Example</title>
+    <style>
+      #canvas {
+        border: 1px solid #000;
+      }
+    </style>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/7.0.7/signalr.min.js"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <canvas id="canvas" width="500" height="500"></canvas>
+    <br />
+    <input type="color" id="colorPicker" value="#df4b26" />
+    <br />
+    Eraser <input type="checkbox" id="eraser" />
+    <br />
+    <button id="eraseButton">Erase All</button>
+    <script src="app.js"></script>
+  </body>
+</html>
